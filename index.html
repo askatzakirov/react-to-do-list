@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>todo list</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<script src="App.js"></script>
+<button type="button" className="btn toggle-btn" aria-pressed="true">
+  <span className="visually-hidden">Show </span>
+  <span>all</span>
+  <span className="visually-hidden"> tasks</span>
+</button>
+<ul
+  role="list"
+  className="todo-list stack-large stack-exception"
+  aria-labelledby="list-heading"
+>
+<input id="todo-0" type="checkbox" defaultChecked={true} />
+<label className="todo-label" htmlFor="todo-0">
+  Eat
+</label>
+</body>
+</html>
